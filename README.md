@@ -18,5 +18,6 @@
 
 
 **Detection**
-- [ ] **Data lake**: Store the data into cloud using AWS boto framework 
+- [ ] **Data lake**: Store the data into s3 using AWS boto framework 
+- [ ] **Notification service**: use aws sns for email notification
 
