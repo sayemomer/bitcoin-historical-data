@@ -11,3 +11,7 @@ class ClientFactory:
 class RDSClient(ClientFactory):
     def __init__(self):
         super().__init__('rds')
+
+class EC2Clinet(ClientFactory):
+    def __init__(self):
+        super().__init__('ec2')
