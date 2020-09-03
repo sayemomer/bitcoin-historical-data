@@ -1,5 +1,5 @@
 RDS_SECURITY_GROUP = 'rds_public_sg'
-RDS_VPC_ID=''
+RDS_VPC_ID='vpc-56d6c431'
 
 class EC2:
     def __init__(self,client):
@@ -13,7 +13,7 @@ class EC2:
         )
     def add_inbound_rule_to_sg(self,security_group_id):
         self._client.authorize_security_group_ingress(
-            GroupID=security_group_id,
+            GroupId=security_group_id,
             IpPermissions=[
                 {
                     'IpProtocol': 'tcp',
