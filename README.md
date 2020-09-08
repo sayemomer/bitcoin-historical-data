@@ -20,4 +20,5 @@
 **Detection**
 - [ ] **Data lake**: Store the data into s3 using AWS boto framework 
 - [ ] **Notification service**: use aws sns for email notification
+- [ ] **Intermediate DB service**: use RDS for inserting 
 
